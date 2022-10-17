@@ -5,102 +5,36 @@
         <SideNav />
       </div>
       <div class="col-sm-11 m-0 p-3">
-        <div class="row home_image">
+        <div class="row">
           <div class="col-sm-12 mt-0">
             <i class="fa fa-search"></i>
             <input type="text" placeholder="search artist" class="inputbox" />
           </div>
 
+          <div class="col-sm-12 collections">
+            <ul>
+              <li>My Collections</li>
+              <li>Likes</li>
+            </ul>
+          </div>
           <div class="col-sm-12">
             <div class="row">
-              <div class="col-sm-4">
-                <img
-                  src="../assets/leadimage.png"
-                  alt="new"
-                  style="width: 100%"
-                />
+              <div class="col-sm-2">
+                <img src="../assets/musicplay.png" />
               </div>
-              <div class="col-sm-8 tunes">
-                <h5>Tomorrow’s tunes</h5>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                  aliquam,<br />
-                  purus sit amet luctus venenatis <br />
-                  64 songs ~ 16 hrs+
-                </p>
-                <ul>
-                  <li>
-                    <i class="fa fa-play-circle" style="color: #facd66"></i>
-                    Play All
-                  </li>
-                  <li>
-                    <i class="fa fa-music" style="color: #facd66"></i> Add To
-                    Collection
-                  </li>
-                  <li><i class="fa fa-heart" style="color: red"></i></li>
-                </ul>
+              <div class="col-sm-2">
+                <img src="../assets/musicplay2.png" />
               </div>
-
-              <div class="col-sm-12 mx-auto - mt-3 mr-3">
-                <div class="table">
-                  <div>
-                    <img src="../assets/table_img.png" />
-                    <i
-                      class="fa fa-heart"
-                      style="color: red; margin-left: 8px"
-                    ></i>
-                  </div>
-                  <div>
-                    <h5>Let me love you ~ Krisx</h5>
-                  </div>
-
-                  <div>
-                    <h5>4:17</h5>
-                  </div>
-                  <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
-                  </div>
-                </div>
-                <div class="table">
-                  <div>
-                    <img src="../assets/table_img.png" />
-                    <i
-                      class="fa fa-heart"
-                      style="color: red; margin-left: 8px"
-                    ></i>
-                  </div>
-                  <div>
-                    <h5>Let me love you ~ Krisx</h5>
-                  </div>
-
-                  <div>
-                    <h5>4:17</h5>
-                  </div>
-                  <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
-                  </div>
-                </div>
-                <div class="table">
-                  <div>
-                    <img src="../assets/table_img.png" />
-                    <i
-                      class="fa fa-heart"
-                      style="color: red; margin-left: 8px"
-                    ></i>
-                  </div>
-                  <div>
-                    <h5>Let me love you ~ Krisx</h5>
-                  </div>
-
-                  <div>
-                    <h5>4:17</h5>
-                  </div>
-                  <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
-                  </div>
-                </div>
+              <div class="col-sm-2">
+                <img src="../assets/musicplay2.png" />
               </div>
-              <div class="col-sm-12">
+              <div class="col-sm-2">
+                <img src="../assets/musicplay2.png" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12" style="margin-top: 17rem">
                 <div class="music_play m-0 p-0">
                   <div class="row">
                     <div class="col-sm-12 music_det mx-auto">
@@ -181,6 +115,7 @@
     </div>
   </div>
 </template>
+
 <script>
 import SideNav from "../components/sidenav.vue";
 export default {
@@ -188,6 +123,7 @@ export default {
   setup() {},
 };
 </script>
+
 <style scoped>
 @import "../../public/cssfolder/style.css";
 </style>
