@@ -1,27 +1,31 @@
 <template>
-  <div class="mobile">
-    <i class="fa fa-bars fa-2x" @click="toggle()"></i>
-    <img src="../assets/logo.svg" style="margin-left: 10px" />
-    <input type="text" />
-    <i class="fa fa-search fa-2x"></i>
-  </div>
-  <div class="music_nav" v-if="navbar == true">
-    <ul class="m-0 mt-1">
-      <router-link to="/">
-        <li>
-          <i class="fas fa-home fa-2x mr-4" style="color: #facd66"></i>
-          Home
-        </li></router-link
-      >
-      <li><i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection</li>
-      <router-link to="/collection"
-        ><li><i class="fa-solid fa-music fa-2x mr-4"></i>Radio</li></router-link
-      >
-      <li><i class="fa-solid fa-radio fa-2x mr-4"></i>Music Videos</li>
-      <li><i class="fa-solid fa-user fa-2x mr-4"></i>Profile</li>
+  <div class="container">
+    <div class="mobile">
+      <i class="fa fa-bars fa-2x" @click="toggle()"></i>
+      <img src="../assets/logo.svg" style="margin-left: 10px" />
+      <input type="text" placeholder="Search" />
+      <i class="fa fa-search fa-2x"></i>
+    </div>
+    <div class="music_nav" v-if="navbar == true">
+      <ul class="m-0 mt-1">
+        <router-link to="/">
+          <li>
+            <i class="fas fa-home fa-2x mr-4" style="color: #facd66"></i>
+            Home
+          </li></router-link
+        >
+        <li><i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection</li>
+        <router-link to="/collection"
+          ><li>
+            <i class="fa-solid fa-music fa-2x mr-4"></i>Radio
+          </li></router-link
+        >
+        <li><i class="fa-solid fa-radio fa-2x mr-4"></i>Music Videos</li>
+        <li><i class="fa-solid fa-user fa-2x mr-4"></i>Profile</li>
 
-      <li><i class="fa fa-sign-out fa-2x mr-4"></i>Log Out</li>
-    </ul>
+        <li><i class="fa fa-sign-out fa-2x mr-4"></i>Log Out</li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -44,17 +48,28 @@ export default {
 </script>
 
 <style scoped>
-.mobile {
+.container {
   display: none;
 }
-.mobile {
+.container {
   display: none;
 }
 
 @media only screen and (max-width: 600px) {
-  .mobile {
+  .container {
     display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .mobile {
     margin: 0px;
+    background: #1d2123;
+
+    padding: 0px;
   }
   .mobile input {
     background: #1d2123;
@@ -65,24 +80,29 @@ export default {
   }
   .music_nav {
     margin: 0px;
-  
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    background: #1d2123;
   }
 
   .music_nav ul {
     list-style: none;
-     background: #1d2123;
+    background: #1d2123;
   }
   .music_nav li {
     margin: 20px 0px;
     margin-top: 0px;
     padding: 10px 15px;
-   color: rgba(239, 238, 224, 0.25);
-
+    color: rgba(239, 238, 224, 0.25);
   }
   .music_nav i {
     color: rgba(239, 238, 224, 0.25);
   }
-  .music_nav a{
+  .music_nav a {
     text-decoration: none;
   }
 }

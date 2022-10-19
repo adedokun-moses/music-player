@@ -64,6 +64,7 @@
   line-height: 15px;
   margin: 0px 10px;
 }
+
 .charts_details h5 {
   font-size: 20px;
   line-height: 15px;
@@ -97,11 +98,17 @@
 .music_det {
   display: flex;
   overflow: auto;
-  /*   background: red; */
+}
+
+.music_det::-webkit-scrollbar {
+  display: none;
+}
+
+.music_det scrollbar-width {
+  display: none;
 }
 
 .music_det>div {
-
   width: 100%;
   margin-top: 15px;
 }
@@ -174,9 +181,12 @@
   font-size: 12px;
 }
 
+/* />>>>>>>>>>>>>>>>>>>>>>>>>> Collecctions Design Starts Here >>>>>>>>>>>>>>>>> // */
+
 .collections ul {
   list-style: none;
   display: flex;
+  
 }
 
 .collections li {
@@ -187,7 +197,26 @@
   color: #1d2123;
 }
 
+.like {
+  background: #1d2123;
+}
+
+.current_playlist {
+  display: flex;
+}
+
+.current_playlist>div {
+  margin: 0px 10px;
+}
+
+.current_playlist_mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
+  .top{
+    margin-top: 100px;
+  }
   .recent_playlist {
     background: #1a1e1f;
     border-radius: 20px;
@@ -198,7 +227,10 @@
   .chart_scroll {
     display: flex;
     overflow: auto;
+  }
 
+  .chart_scroll::-webkit-scrollbar {
+    display: none;
   }
 
   .charts_details {
@@ -215,7 +247,7 @@
   }
 
   .image img {
-    margin-top: 0px;
+    margin-top: 30px;
     width: 100%;
   }
 
@@ -223,5 +255,52 @@
     display: block;
   }
 
+  .progress {
+    display: none;
+  }
 
+  /* 
+  >>>> About <<<<<<<<<< */
+  .tunes ul {
+    list-style: none;
+    display: flex;
+    margin-top: 1.5rem;
+  }
+  .lead_image img{
+    margin-top: 30px;
+  }
+  .tunes h5 {
+    color: #a4c7c6;
+    margin-top: 1rem;
+  }
+
+  /* 
+  >>>> Collection <<<<<<<<<< */
+  
+  .collections li {
+    margin: 0px 5px;
+    margin-top: 24px;
+    background: #facd66;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #1d2123;
+    width: 100%;
+    text-align: center;
+  }
+
+  .current_playlist {
+    display: none;
+  }
+
+  .current_playlist_mobile {
+    display: block;
+  }
+
+  .current_playlist_mobile>div {
+    margin: 20px 20px;
+  }
+
+  .current_playlist_mobile img {
+    width: 100%;
+  }
 }

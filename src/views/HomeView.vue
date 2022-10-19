@@ -5,7 +5,7 @@
         <Mobile />
         <SideNav />
       </div>
-      <div class="col-sm-11 m-0 p-3">
+      <div class="col-sm-11 m-0 p-3 top">
         <div class="row">
           <div class="col-sm-12 mt-0 d-none d-lg-block">
             <i class="fa fa-search"></i>
@@ -39,7 +39,7 @@
                 <div class="col-sm-11 recent_playlist d-flex">
                   <div class="m-2 charts_details">
                     <img src="../assets/play1.png" />
-                     <h4>
+                    <h4>
                       Golden age of 80s <br />
                       <span style="font-size: 10px">Sean swadder </span><br />
                       <span style="font-size: 10px">2:34:45</span>
@@ -109,7 +109,7 @@
                 <div class="col-sm-2 col-6">
                   <img src="../assets/musicplay.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
-                    Life in a bubble
+                   Life in a bubble  <!-- {{netStore.name}} --> 
                   </h2>
                 </div>
               </div>
@@ -130,16 +130,16 @@
               <div style="flex-basis: 90% mb-3">
                 <div class="music_logo">
                   <ul>
-                    <li><i class="fa-solid fa-shuffle"></i></li>
-                    <li><i class="fa-solid fa-backward-step"></i></li>
+                    <li><i class="fa-solid fa-shuffle d-none d-lg-block"></i></li>
+                    <li><i class="fa-solid fa-backward-step d-none d-lg-block"></i></li>
                     <li>
                       <i
                         class="fa-solid fa-circle-play"
                         style="color: #facd66"
                       ></i>
                     </li>
-                    <li><i class="fa-solid fa-forward-step"></i></li>
-                    <li><i class="fa-solid fa-arrows-rotate"></i></li>
+                    <li><i class="fa-solid fa-forward-step "></i></li>
+                    <li><i class="fa-solid fa-arrows-rotate d-none d-lg-block"></i></li>
                   </ul>
                   <div
                     class="progress mt-3"
@@ -162,7 +162,7 @@
                 </div>
               </div>
               <div style="flex-basis: 20%" class="d-flex">
-                <i class="fa-solid fa-volume-high mr-4 mt-3"></i>
+                <i class="fa-solid fa-volume-high mr-4 mt-3 d-none d-lg-block"></i>
                 <div
                   class="progress mt-4"
                   style="
@@ -193,9 +193,28 @@
 // @ is an alias to /src
 import SideNav from "@/components/sidenav.vue";
 import Mobile from "@/components/mobile.vue";
+
+//import { onMounted } from "vue";
+import { useUserStore } from "../store/user";
+
 export default {
   // name: 'HomeView',
   components: { SideNav, Mobile },
+  /* setup() {
+    const netStore = useUserStore();
+     const getUsers = computed(() => {
+      return store.getUsers;
+    });
+    const users = computed(() => {
+      return store.users;
+    });
+
+    onMounted(() => {
+      store.fetchUsers();
+    }); 
+
+    return {netStore};
+  }, */
 };
 </script>
 

@@ -10,6 +10,14 @@ body {
   padding: 0px;
   color: white;
   box-sizing: border-box;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+ scrollbar-width: none; /* for Firefox */
+
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 * {
   margin: 0px;
@@ -17,4 +25,5 @@ body {
   border: none;
   outline: none;
 }
+
 </style>

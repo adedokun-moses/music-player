@@ -2,18 +2,19 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-1 m-0 p-3">
+        <Mobile/>
         <SideNav />
       </div>
       <div class="col-sm-11 m-0 p-3">
         <div class="row home_image">
-          <div class="col-sm-12 mt-0">
+          <div class="col-sm-12 mt-0 d-none d-lg-block">
             <i class="fa fa-search"></i>
             <input type="text" placeholder="search artist" class="inputbox" />
           </div>
 
           <div class="col-sm-12">
             <div class="row">
-              <div class="col-sm-4">
+              <div class="col-sm-4 lead_image">
                 <img
                   src="../assets/leadimage.png"
                   alt="new"
@@ -37,7 +38,7 @@
                     <i class="fa fa-music" style="color: #facd66"></i> Add To
                     Collection
                   </li>
-                  <li><i class="fa fa-heart" style="color: red"></i></li>
+                  <li><i class="fa fa-heart" style="color: red"></i> Like </li>
                 </ul>
               </div>
 
@@ -101,7 +102,7 @@
                 </div>
               </div>
               <div class="col-sm-12">
-                <div class="music_play m-0 p-0">
+                <div class="music_play m-0 p-0 d-none d-lg-block">
                   <div class="row">
                     <div class="col-sm-12 music_det mx-auto">
                       <div class="mydet" style="flex-basis: 15%">
@@ -183,8 +184,9 @@
 </template>
 <script>
 import SideNav from "../components/sidenav.vue";
+import Mobile from "../components/mobile.vue"
 export default {
-  components: { SideNav },
+  components: { SideNav, Mobile },
   setup() {},
 };
 </script>

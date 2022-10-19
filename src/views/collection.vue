@@ -2,11 +2,12 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-1 m-0 p-3">
+        <Mobile />
         <SideNav />
       </div>
       <div class="col-sm-11 m-0 p-3">
         <div class="row">
-          <div class="col-sm-12 mt-0">
+          <div class="col-sm-12 mt-0 d-none d-lg-block">
             <i class="fa fa-search"></i>
             <input type="text" placeholder="search artist" class="inputbox" />
           </div>
@@ -14,28 +15,40 @@
           <div class="col-sm-12 collections">
             <ul>
               <li>My Collections</li>
-              <li>Likes</li>
+              <li style="background: #1d2123; border: 1px solid #EFEEE0; color: #EFEEE0">Likes</li>
             </ul>
           </div>
           <div class="col-sm-12">
-            <div class="row">
-              <div class="col-sm-2">
+            <div class="row current_playlist">
+              <div>
                 <img src="../assets/musicplay.png" />
               </div>
-              <div class="col-sm-2">
+              <div>
                 <img src="../assets/musicplay2.png" />
               </div>
-              <div class="col-sm-2">
+              <div>
                 <img src="../assets/musicplay2.png" />
               </div>
-              <div class="col-sm-2">
+              <div>
                 <img src="../assets/musicplay2.png" />
+              </div>
+            </div>
+
+            <div class="row current_playlist_mobile  ">
+              <div>
+                <img src="../assets/CollectionCard.png" />
+              </div>
+              <div>
+                <img src="../assets/CollectionCard2.png" />
+              </div>
+              <div>
+                <img src="../assets/CollectionCard3.png" />
               </div>
             </div>
 
             <div class="row">
               <div class="col-sm-12" style="margin-top: 17rem">
-                <div class="music_play m-0 p-0">
+                <div class="music_play m-0 p-0 d-none d-lg-block">
                   <div class="row">
                     <div class="col-sm-12 music_det mx-auto">
                       <div class="mydet" style="flex-basis: 15%">
@@ -85,7 +98,7 @@
                         </div>
                       </div>
                       <div style="flex-basis: 20%" class="d-flex">
-                      <i class="fa-solid fa-volume-high mr-4 mt-3"></i>
+                        <i class="fa-solid fa-volume-high mr-4 mt-3"></i>
                         <div
                           class="progress mt-4"
                           style="
@@ -118,8 +131,9 @@
 
 <script>
 import SideNav from "../components/sidenav.vue";
+import Mobile from "../components/mobile.vue";
 export default {
-  components: { SideNav },
+  components: { SideNav, Mobile },
   setup() {},
 };
 </script>
