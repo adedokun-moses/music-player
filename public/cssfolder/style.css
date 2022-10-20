@@ -54,7 +54,7 @@
   margin: 10px;
 }
 
- .charts_details {
+.charts_details {
   display: flex;
   align-items: center;
 }
@@ -78,7 +78,7 @@
 .love_logo {
   display: flex;
   align-items: center;
-} 
+}
 
 
 .love_logo i {
@@ -186,7 +186,7 @@
 .collections ul {
   list-style: none;
   display: flex;
-  
+
 }
 
 .collections li {
@@ -215,40 +215,54 @@
 
 @media only screen and (max-width: 600px) {
 
-  .top{
+  .top {
     margin-top: 100px;
   }
+
   .recent_playlist {
     background: #1a1e1f;
     border-radius: 20px;
     height: auto;
+    padding: 0px 30px;
     margin: 10px;
+    width: 100%;
     display: flex;
+
   }
+ 
 
   .chart_scroll {
     display: flex;
     overflow: auto;
-  }
+    align-items: stretch;
 
+  } 
+  
   .chart_scroll::-webkit-scrollbar {
     display: none;
   }
- 
 
- .charts_details {
+
+  .charts_details {
     flex-direction: column;
-    align-items: center;
-    flex-grow: 100%;
+       width: auto;
+
   }
+
   .charts_details h4 {
     font-size: 10px;
     margin: 0px 0px;
 
+
   }
 
   .love_logo {
-    display: block;
+    display: flex;
+  width: 10%;
+  }
+
+  .love_logo i {
+    margin-left: 100px;
   }
 
   .image img {
@@ -271,9 +285,11 @@
     display: flex;
     margin-top: 1.5rem;
   }
-  .lead_image img{
+
+  .lead_image img {
     margin-top: 30px;
   }
+
   .tunes h5 {
     color: #a4c7c6;
     margin-top: 1rem;
@@ -281,7 +297,7 @@
 
   /* 
   >>>> Collection <<<<<<<<<< */
-  
+
   .collections li {
     margin: 0px 5px;
     margin-top: 24px;
