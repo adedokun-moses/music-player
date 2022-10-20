@@ -132,9 +132,14 @@
 <script>
 import SideNav from "../components/sidenav.vue";
 import Mobile from "../components/mobile.vue";
+
 export default {
   components: { SideNav, Mobile },
-  setup() {},
+ data(){
+  return{
+    id: this.$route.params.id
+  }
+ }
 };
 </script>
 

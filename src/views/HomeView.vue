@@ -22,44 +22,51 @@
             <h5>Top Chart</h5>
             <div class="row">
               <div class="chart_scroll">
-                <div class="col-sm-12 recent_playlist d-flex">
-                  <div class="m-2 charts_details">
-                    <img src="../assets/play1.png" />
-                    <h4>
-                      Golden age of 80s <br />
-                      <span class="small">Sean swadder </span><br />
-                      <span class="small">2:34:45</span>
-                    </h4>
+                <router-link to="/collection:id" style="text-decoration: none; color: white">
+                  <div class="col-sm-12 recent_playlist d-flex">
+                    <div class="m-2 charts_details">
+                      <img src="../assets/play1.png" />
+                      <h4>
+                        Golden age of 80s <br />
+                        <span class="small">Sean swadder </span><br />
+                        <span class="small">2:34:45</span>
+                      </h4>
+                    </div>
+                    <div class="love_logo">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
                   </div>
-                  <div class="love_logo">
-                    <i class="fa-solid fa-heart"></i>
+                </router-link>
+                <router-link to="/collection:id" style="text-decoration: none; color: white">
+                  <div class="col-sm-12 recent_playlist d-flex">
+                    <div class="m-2 charts_details">
+                      <img src="../assets/play1.png" />
+                      <h4>
+                        Golden age of 80s <br />
+                        <span class="small">Sean swadder </span><br />
+                        <span class="small">2:34:45</span>
+                      </h4>
+                    </div>
+                    <div class="love_logo">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
                   </div>
-                </div>
-                <div class="col-sm-12 recent_playlist d-flex">
-                  <div class="m-2 charts_details">
-                    <img src="../assets/play1.png" />
-                    <h4>
-                      Golden age of 80s <br />
-                      <span class="small">Sean swadder </span><br />
-                      <span class="small">2:34:45</span>
-                    </h4>
+                </router-link>
+                <router-link to="/collection:id" style="text-decoration: none; color: white">
+                  <div class="col-sm-12 recent_playlist d-flex">
+                    <div class="m-2 charts_details">
+                      <img src="../assets/play1.png" />
+                      <h4>
+                        Golden age of 80s <br />
+                        <span style="font-size: 10px">Sean swadder </span><br />
+                        <span style="font-size: 10px">2:34:45</span>
+                      </h4>
+                    </div>
+                    <div class="love_logo">
+                      <i class="fa-solid fa-heart"></i>
+                    </div>
                   </div>
-                  <div class="love_logo">
-                    <i class="fa-solid fa-heart"></i>
-                  </div>
-                </div>
-                <div class="col-sm-12 recent_playlist d-flex">
-                  <div class="m-2 charts_details">
-                    <img src="../assets/play1.png" />
-                    <h4> Golden age of 80s <br />
-                      <span style="font-size: 10px">Sean swadder </span><br />
-                      <span style="font-size: 10px">2:34:45</span>
-                    </h4>
-                  </div>
-                  <div class="love_logo">
-                    <i class="fa-solid fa-heart"></i>
-                  </div>
-                </div>
+                </router-link>
               </div>
             </div>
           </div>

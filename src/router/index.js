@@ -13,7 +13,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/collection',
+    path: '/collection:id',
     name: 'collection',
     component: () => import(/* webpackChunkName: "collection" */ '../views/collection.vue')
   },
@@ -22,7 +22,11 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior() {
+    //Always scroll to top
+    return { top: 0 }
+  }
 })
 
 export default router
