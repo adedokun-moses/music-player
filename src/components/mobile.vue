@@ -6,26 +6,28 @@
       <input type="text" placeholder="Search" />
       <i class="fa fa-search fa-2x"></i>
     </div>
-    <div class="music_nav" v-if="navbar == true">
-      <ul class="m-0 mt-1">
-        <router-link to="/">
-          <li>
-            <i class="fas fa-home fa-2x mr-4" style="color: #facd66"></i>
-            Home
-          </li></router-link
-        >
-        <li><i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection</li>
-        <router-link to="/collection"
-          ><li>
-            <i class="fa-solid fa-music fa-2x mr-4"></i>Radio
-          </li></router-link
-        >
-        <li><i class="fa-solid fa-radio fa-2x mr-4"></i>Music Videos</li>
-        <li><i class="fa-solid fa-user fa-2x mr-4"></i>Profile</li>
+    <transition name="translateX">
+      <div class="music_nav" v-if="navbar == true">
+        <ul class="m-0 mt-1">
+          <router-link to="/" @click="toggle()">
+            <li >
+              <i class="fas fa-home fa-2x mr-4" style="color: #facd66"></i>
+              Home <i class="fa fa-times fa-3x out" style="float: right; color: red" ></i>
+            </li></router-link
+          >
+          <li @click="toggle()"><i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection</li>
+          <router-link to="/collection" @click="toggle()"
+            ><li >
+              <i class="fa-solid fa-music fa-2x mr-4"></i>Radio
+            </li></router-link
+          >
+          <li @click="toggle()"><i class="fa-solid fa-radio fa-2x mr-4"></i>Music Videos</li>
+          <li @click="toggle()"><i class="fa-solid fa-user fa-2x mr-4"></i>Profile</li>
 
-        <li><i class="fa fa-sign-out fa-2x mr-4"></i>Log Out</li>
-      </ul>
-    </div>
+          <li @click="toggle()"><i class="fa fa-sign-out fa-2x mr-4"></i>Log Out</li>
+        </ul>
+      </div>
+    </transition>
   </div>
 </template>
 
@@ -104,6 +106,22 @@ export default {
   }
   .music_nav a {
     text-decoration: none;
+  }
+
+  .translateX-enter {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  .translateX-enter-active,
+  .translateX-leave-active {
+    transform-origin: top left 0;
+    transition: 3s ease;
+  }
+
+  .translateX-leave-to {
+    transform: translateX(-200px);
+    opacity: 0;
   }
 }
 </style>

@@ -54,7 +54,7 @@
   margin: 10px;
 }
 
-.charts_details {
+ .charts_details {
   display: flex;
   align-items: center;
 }
@@ -78,7 +78,7 @@
 .love_logo {
   display: flex;
   align-items: center;
-}
+} 
 
 
 .love_logo i {
@@ -214,6 +214,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .top{
     margin-top: 100px;
   }
@@ -222,6 +223,7 @@
     border-radius: 20px;
     height: auto;
     margin: 10px;
+    display: flex;
   }
 
   .chart_scroll {
@@ -232,14 +234,17 @@
   .chart_scroll::-webkit-scrollbar {
     display: none;
   }
+ 
 
-  .charts_details {
-    display: block;
+ .charts_details {
+    flex-direction: column;
     align-items: center;
+    flex-grow: 100%;
   }
-
   .charts_details h4 {
     font-size: 10px;
+    margin: 0px 0px;
+
   }
 
   .love_logo {

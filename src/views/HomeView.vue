@@ -5,7 +5,7 @@
         <Mobile />
         <SideNav />
       </div>
-      <div class="col-sm-11 m-0 p-3 top">
+      <div class="col-sm-11 m-0 p-3">
         <div class="row">
           <div class="col-sm-12 mt-0 d-none d-lg-block">
             <i class="fa fa-search"></i>
@@ -22,7 +22,7 @@
             <h5>Top Chart</h5>
             <div class="row">
               <div class="chart_scroll">
-                <div class="col-sm-11 recent_playlist d-flex">
+                <div class="col-sm-12 recent_playlist d-flex">
                   <div class="m-2 charts_details">
                     <img src="../assets/play1.png" />
                     <h4>
@@ -35,25 +35,23 @@
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-
-                <div class="col-sm-11 recent_playlist d-flex">
+                <div class="col-sm-12 recent_playlist d-flex">
                   <div class="m-2 charts_details">
                     <img src="../assets/play1.png" />
                     <h4>
                       Golden age of 80s <br />
-                      <span style="font-size: 10px">Sean swadder </span><br />
-                      <span style="font-size: 10px">2:34:45</span>
+                      <span class="small">Sean swadder </span><br />
+                      <span class="small">2:34:45</span>
                     </h4>
                   </div>
                   <div class="love_logo">
                     <i class="fa-solid fa-heart"></i>
                   </div>
                 </div>
-                <div class="col-sm-11 recent_playlist d-flex">
+                <div class="col-sm-12 recent_playlist d-flex">
                   <div class="m-2 charts_details">
                     <img src="../assets/play1.png" />
-                    <h4>
-                      Golden age of 80s <br />
+                    <h4> Golden age of 80s <br />
                       <span style="font-size: 10px">Sean swadder </span><br />
                       <span style="font-size: 10px">2:34:45</span>
                     </h4>
@@ -109,7 +107,8 @@
                 <div class="col-sm-2 col-6">
                   <img src="../assets/musicplay.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
-                   Life in a bubble  <!-- {{netStore.name}} --> 
+                    Life in a bubble
+                    <!-- {{netStore.name}} -->
                   </h2>
                 </div>
               </div>
@@ -130,16 +129,26 @@
               <div style="flex-basis: 90% mb-3">
                 <div class="music_logo">
                   <ul>
-                    <li><i class="fa-solid fa-shuffle d-none d-lg-block"></i></li>
-                    <li><i class="fa-solid fa-backward-step d-none d-lg-block"></i></li>
+                    <li>
+                      <i class="fa-solid fa-shuffle d-none d-lg-block"></i>
+                    </li>
+                    <li>
+                      <i
+                        class="fa-solid fa-backward-step d-none d-lg-block"
+                      ></i>
+                    </li>
                     <li>
                       <i
                         class="fa-solid fa-circle-play"
                         style="color: #facd66"
                       ></i>
                     </li>
-                    <li><i class="fa-solid fa-forward-step "></i></li>
-                    <li><i class="fa-solid fa-arrows-rotate d-none d-lg-block"></i></li>
+                    <li><i class="fa-solid fa-forward-step"></i></li>
+                    <li>
+                      <i
+                        class="fa-solid fa-arrows-rotate d-none d-lg-block"
+                      ></i>
+                    </li>
                   </ul>
                   <div
                     class="progress mt-3"
@@ -162,7 +171,9 @@
                 </div>
               </div>
               <div style="flex-basis: 20%" class="d-flex">
-                <i class="fa-solid fa-volume-high mr-4 mt-3 d-none d-lg-block"></i>
+                <i
+                  class="fa-solid fa-volume-high mr-4 mt-3 d-none d-lg-block"
+                ></i>
                 <div
                   class="progress mt-4"
                   style="
