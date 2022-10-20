@@ -113,7 +113,12 @@
   margin-top: 15px;
 }
 
+.musiclogo{
+  flex-basis: 70%;
+ 
+}
 .mydet {
+  flex-basis: 20%;
   display: flex;
   align-items: center;
 }
@@ -121,6 +126,7 @@
 .mydet h5 {
   margin: 0px;
   margin-bottom: 20px;
+  font-size: 10px;
 }
 
 .music_logo ul {
@@ -224,19 +230,21 @@
     border-radius: 20px;
     height: auto;
     padding: 0px 30px;
-    margin: 10px;
-    width: 100%;
+    margin: 10px ;
+    width: 90%;
     display: flex;
     
 
   }
+  .recent_playlist > div{
+    margin: 0px 10px;
+  }
  
 
-  .chart_scroll {
+ .chart_scroll {
     display: flex;
-    overflow: auto;
+   overflow: auto;
     align-items: stretch;
-
   } 
 
   
@@ -247,7 +255,7 @@
 
   .charts_details {
     flex-direction: column;
-       width: auto;
+   
 
   }
 
@@ -268,6 +276,7 @@
   }
 
   .image img {
+
     margin-top: 30px;
     width: 100%;
   }
@@ -278,6 +287,18 @@
 
   .progress {
     display: none;
+  }
+
+  .musiclogo{
+    flex-basis: 30%;
+  }
+  .musiclogo i{
+    margin-top: 15px;
+  }
+  .mydet {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
   }
 
   /* 

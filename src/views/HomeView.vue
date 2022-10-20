@@ -22,7 +22,7 @@
             <h5>Top Chart</h5>
             <div class="row">
               <div class="chart_scroll">
-                <router-link to="/collection:id" style="text-decoration: none; color: white">
+                <router-link to="/about" style="text-decoration: none; color: white">
                   <div class="col-sm-12 recent_playlist d-flex">
                     <div class="m-2 charts_details">
                       <img src="../assets/play1.png" />
@@ -37,7 +37,7 @@
                     </div>
                   </div>
                 </router-link>
-                <router-link to="/collection:id" style="text-decoration: none; color: white">
+                <router-link to="/about" style="text-decoration: none; color: white">
                   <div class="col-sm-12 recent_playlist d-flex">
                     <div class="m-2 charts_details">
                       <img src="../assets/play1.png" />
@@ -52,7 +52,7 @@
                     </div>
                   </div>
                 </router-link>
-                <router-link to="/collection:id" style="text-decoration: none; color: white">
+                <router-link to="/about" style="text-decoration: none; color: white">
                   <div class="col-sm-12 recent_playlist d-flex">
                     <div class="m-2 charts_details">
                       <img src="../assets/play1.png" />
@@ -74,11 +74,14 @@
             <h4 style="color: #efeee0">New Release</h4>
             <div class="row">
               <div class="music_det">
+               
                 <div class="col-sm-2 col-6">
+                  <router-link to="/about" style="text-decoration: none; color: white">
                   <img src="../assets/musicplay.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
                   </h2>
+                  </router-link>
                 </div>
                 <div class="col-sm-2 col-6">
                   <img src="../assets/musicplay.png" style="width: 100%" />
@@ -127,13 +130,11 @@
         <div class="music_play m-0 p-0">
           <div class="row">
             <div class="col-sm-10 music_det mx-auto">
-              <div class="mydet" style="flex-basis: 15%">
+              <div class="mydet">
                 <img src="../assets/newlog.png" />
-                <h5 style="font-size: 10px">
-                  Seasons In <br /><span style="font-size: 5px">James</span>
-                </h5>
+                <h5> Seasons In <br /><span style="font-size: 10px">James</span> </h5>
               </div>
-              <div style="flex-basis: 90% mb-3">
+              <div class="musiclogo mb-3">
                 <div class="music_logo">
                   <ul>
                     <li>

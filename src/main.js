@@ -3,7 +3,8 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import store from './store/user'
-
+/* import swal from 'sweetalert'
+ */
 /* const app = createApp({});
 const pinia = createPinia();
 

@@ -3,11 +3,7 @@
 </template>
 
 <style>
-  @-moz-document url-prefix() { /* Disable scrollbar Firefox */
-            html{
-              scrollbar-width: none;
-            }
-          }
+
 body {
   background: #1d2123;
   font-family: "Quicksand";
@@ -18,7 +14,7 @@ body {
   box-sizing: border-box;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
 
-   text-decoration: none;
+
 
 }
 

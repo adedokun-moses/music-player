@@ -10,21 +10,34 @@
       <div class="music_nav" v-if="navbar == true">
         <ul class="m-0 mt-1">
           <router-link to="/" @click="toggle()">
-            <li >
+            <li>
               <i class="fas fa-home fa-2x mr-4" style="color: #facd66"></i>
-              Home <i class="fa fa-times fa-3x out" style="float: right; color: red" ></i>
-            </li></router-link
-          >
-          <li @click="toggle()"><i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection</li>
-          <router-link to="/collection" @click="toggle()"
-            ><li >
+              Home
+              <i
+                class="fa fa-times fa-3x out"
+                style="float: right; color: red"
+              ></i></li
+          ></router-link>
+          <router-link to="/about" @click="toggle()">
+            <li>
+              <i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection
+            </li>
+          </router-link>
+          <router-link to="/collection:id" @click="toggle()"
+            ><li>
               <i class="fa-solid fa-music fa-2x mr-4"></i>Radio
             </li></router-link
           >
-          <li @click="toggle()"><i class="fa-solid fa-radio fa-2x mr-4"></i>Music Videos</li>
-          <li @click="toggle()"><i class="fa-solid fa-user fa-2x mr-4"></i>Profile</li>
+          <li @click="toggle()">
+            <i class="fa-solid fa-radio fa-2x mr-4"></i>Music Videos
+          </li>
+          <li @click="toggle()">
+            <i class="fa-solid fa-user fa-2x mr-4"></i>Profile
+          </li>
 
-          <li @click="toggle()"><i class="fa fa-sign-out fa-2x mr-4"></i>Log Out</li>
+          <li @click="logout()">
+            <i class="fa fa-sign-out fa-2x mr-4"></i>Log Out
+          </li>
         </ul>
       </div>
     </transition>
