@@ -72,6 +72,7 @@ export default {
 
 @media only screen and (max-width: 600px) {
   .container {
+     background: #1d2123;
     display: block;
     position: fixed;
     width: 100%;

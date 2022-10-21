@@ -129,14 +129,14 @@
                   <img src="../assets/musicplay2.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
-                    <!-- {{netStore.name}} -->
+                 
                   </h2>
                 </div>
                  <div class="col-sm-2 col-6">
                   <img src="../assets/musicplay2.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
-                    <!-- {{netStore.name}} -->
+                
                   </h2>
                 </div>
               </div>

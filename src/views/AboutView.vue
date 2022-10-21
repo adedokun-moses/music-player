@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-1 m-0 p-3">
-        <Mobile/>
+        <Mobile />
         <SideNav />
       </div>
       <div class="col-sm-11 m-0 p-3">
@@ -38,11 +38,51 @@
                     <i class="fa fa-music" style="color: #facd66"></i> Add To
                     Collection
                   </li>
-                  <li><i class="fa fa-heart" style="color: red"></i> Like </li>
+                  <li><i class="fa fa-heart" style="color: red"></i> Like</li>
                 </ul>
               </div>
 
-              <div class="col-sm-12 mx-auto - mt-3 mr-3">
+              <div class="col-sm-12 mx-auto mt-3 mr-3 playlist">
+                <div class="table">
+                  <div>
+                    <img src="../assets/table_img.png" />
+                    <i
+                      class="fa fa-heart"
+                      style="color: red; margin-left: 8px"
+                    ></i>
+                  </div>
+                  <div>
+                    <h5>Let me love you ~ Krisx</h5>
+                  </div>
+
+                  <div>
+                    <h5>4:17</h5>
+                  </div>
+                  <div>
+                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                  </div>
+                </div>
+
+                <div class="table">
+                  <div>
+                    <img src="../assets/table_img.png" />
+                    <i
+                      class="fa fa-heart"
+                      style="color: red; margin-left: 8px"
+                    ></i>
+                  </div>
+                  <div>
+                    <h5>Let me love you ~ Krisx</h5>
+                  </div>
+
+                  <div>
+                    <h5>4:17</h5>
+                  </div>
+                  <div>
+                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                  </div>
+                </div>
+
                 <div class="table">
                   <div>
                     <img src="../assets/table_img.png" />
@@ -100,6 +140,46 @@
                     <h5 style="margin-left: 10rem; color: #facd66">:</h5>
                   </div>
                 </div>
+                <div class="table">
+                  <div>
+                    <img src="../assets/table_img.png" />
+                    <i
+                      class="fa fa-heart"
+                      style="color: red; margin-left: 8px"
+                    ></i>
+                  </div>
+                  <div>
+                    <h5>Let me love you ~ Krisx</h5>
+                  </div>
+
+                  <div>
+                    <h5>4:17</h5>
+                  </div>
+                  <div>
+                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                  </div>
+                </div>
+                <div class="table">
+                  <div>
+                    <img src="../assets/table_img.png" />
+                    <i
+                      class="fa fa-heart"
+                      style="color: red; margin-left: 8px"
+                    ></i>
+                  </div>
+                  <div>
+                    <h5>Let me love you ~ Krisx</h5>
+                  </div>
+
+                  <div>
+                    <h5>4:17</h5>
+                  </div>
+                  <div>
+                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                  </div>
+                </div>
+
+            
               </div>
               <div class="col-sm-12">
                 <div class="music_play m-0 p-0 d-none d-lg-block">
@@ -152,7 +232,7 @@
                         </div>
                       </div>
                       <div style="flex-basis: 20%" class="d-flex">
-                      <i class="fa-solid fa-volume-high mr-4 mt-3"></i>
+                        <i class="fa-solid fa-volume-high mr-4 mt-3"></i>
                         <div
                           class="progress mt-4"
                           style="
@@ -184,7 +264,7 @@
 </template>
 <script>
 import SideNav from "../components/sidenav.vue";
-import Mobile from "../components/mobile.vue"
+import Mobile from "../components/mobile.vue";
 export default {
   components: { SideNav, Mobile },
   setup() {},
