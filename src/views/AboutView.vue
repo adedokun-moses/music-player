@@ -44,138 +44,145 @@
 
               <div class="col-sm-12 mx-auto mt-3 mr-3 playlist">
                 <div class="table">
-                  <div>
+                  <div class="d-flex">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                    <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block">4:17</span></h5>
                   </div>
                 </div>
 
                 <div class="table">
-                  <div>
+                  <div class="d-flex">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                    <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block">4:17</span></h5>
                   </div>
                 </div>
 
                 <div class="table">
-                  <div>
+                  <div class="d-flex">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                  <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block">4:17</span></h5>
                   </div>
                 </div>
                 <div class="table">
-                  <div>
+                  <div class="d-flex">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                   <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block">4:17</span></h5>
                   </div>
                 </div>
                 <div class="table">
-                  <div>
+                  <div class="d-flex">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                   <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block">4:17</span></h5>
                   </div>
                 </div>
                 <div class="table">
-                  <div>
+                  <div class="d-flex">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                    <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block">4:17</span></h5>
                   </div>
                 </div>
                 <div class="table">
-                  <div>
+                  <div class="d-flex align-items-center">
                     <img src="../assets/table_img.png" />
                     <i
                       class="fa fa-heart"
                       style="color: red; margin-left: 8px"
                     ></i>
+                     <h5  class="d-lg-none .d-xl-block">Let me love you ~ Krisx <span>Single</span></h5>
                   </div>
-                  <div>
+                  <div class="d-none d-lg-block ">
                     <h5>Let me love you ~ Krisx</h5>
                   </div>
 
-                  <div>
+                  <div class="d-lg-block d-none">
                     <h5>4:17</h5>
                   </div>
                   <div>
-                    <h5 style="margin-left: 10rem; color: #facd66">:</h5>
+                    <h5 style="margin-left: 10rem; color: #facd66">: <br> <span style="color: white" class="d-lg-none .d-xl-block ">4:17</span></h5>
                   </div>
                 </div>
 
