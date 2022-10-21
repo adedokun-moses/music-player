@@ -84,14 +84,13 @@ export default {
   .mobile {
     margin: 0px;
     background: #1d2123;
-
     padding: 0px;
   }
   .mobile input {
     background: #1d2123;
     outline: none;
     padding: 20px;
-    width: 70%;
+    width: 65%;
     color: rgba(255, 255, 255, 0.25);
   }
   .music_nav {
@@ -130,7 +129,7 @@ export default {
   .translateX-enter-active,
   .translateX-leave-active {
     transform-origin: top left 0;
-    transition: 3s ease;
+    transition: 0.5s ease;
   }
 
   .translateX-leave-to {

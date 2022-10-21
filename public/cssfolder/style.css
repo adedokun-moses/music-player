@@ -311,18 +311,22 @@
   .progress {
     display: none;
   }
+  .music_logo{
+    flex-basis: 20%;
+  }
 
-  .musiclogo{
-    flex-basis: 30%;
+  .music_logo li {
+    margin: 0px 15px;
   }
   .musiclogo i{
     margin-top: 15px;
   }
   .mydet {
-    flex-basis: 50%;
+
+    flex-basis: 80%;
     display: flex;
     align-items: center;
-  }
+  } 
 
   /* 
   >>>> About <<<<<<<<<< */
