@@ -24,13 +24,13 @@
                 <img src="../assets/musicplay.png" />
               </div>
               <div>
-                <img src="../assets/musicplay2.png" />
+                <img src="../assets/play5.png" />
               </div>
               <div>
-                <img src="../assets/musicplay2.png" />
+                <img src="../assets/play4.png" />
               </div>
               <div>
-                <img src="../assets/musicplay2.png" />
+                <img src="../assets/play6.png" />
               </div>
             </div>
 
@@ -47,7 +47,7 @@
             </div>
 
             <div class="row">
-              <div class="col-sm-12" style="margin-top: 17rem">
+              <div class="col-sm-12" style="margin-top: 20rem">
                 <div class="music_play m-0 p-0 d-none d-lg-block">
                   <div class="row">
                     <div class="col-sm-12 music_det mx-auto">

@@ -98,6 +98,7 @@
 .music_det {
   display: flex;
   overflow: auto;
+  scrollbar-width: none;
 }
 
 .music_det::-webkit-scrollbar {
@@ -106,6 +107,7 @@
 
 .music_det scrollbar-width {
   display: none;
+  
 }
 
 .music_det>div {
@@ -215,10 +217,17 @@
   margin: 0px 10px;
 }
 
+
 .current_playlist_mobile {
   display: none;
 }
+.current_playlist img{
+  transition: all .2s ease-in-out;
+}
 
+.current_playlist img:hover{
+  transform: scale(1.1); 
+}
 @media only screen and (max-width: 600px) {
 
   .top {

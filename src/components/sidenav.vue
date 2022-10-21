@@ -5,8 +5,8 @@
       <router-link to="/">
         <li><i class="fas fa-home fa-2x" style="color: #facd66"></i></li
       ></router-link>
-      <router-link to="/collection"><li><i class="fa-solid fa-music fa-2x"></i></li></router-link>
-      <li><i class="fa-solid fa-radio fa-2x"></i></li>
+      <router-link to="/collection:id"><li><i class="fa-solid fa-music fa-2x"></i></li></router-link>
+      <router-link to="/collection:id"><li><i class="fa-solid fa-radio fa-2x"></i></li></router-link>
       <li><i class="fa-solid fa-record-vinyl fa-2x"></i></li>
     </ul>
 

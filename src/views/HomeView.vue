@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <div class="row m-0">
+    <div class="row">
       <div class="col-sm-1 m-0 p-3">
         <Mobile />
         <SideNav />
@@ -22,7 +22,10 @@
             <h5>Top Chart</h5>
             <div class="row">
               <div class="chart_scroll">
-                <router-link to="/about" style="text-decoration: none; color: white">
+                <router-link
+                  to="/about"
+                  style="text-decoration: none; color: white"
+                >
                   <div class="col-sm-12 recent_playlist d-flex">
                     <div class="m-2 charts_details">
                       <img src="../assets/play1.png" />
@@ -37,7 +40,10 @@
                     </div>
                   </div>
                 </router-link>
-                <router-link to="/about" style="text-decoration: none; color: white">
+                <router-link
+                  to="/about"
+                  style="text-decoration: none; color: white"
+                >
                   <div class="col-sm-12 recent_playlist d-flex">
                     <div class="m-2 charts_details">
                       <img src="../assets/play1.png" />
@@ -52,7 +58,10 @@
                     </div>
                   </div>
                 </router-link>
-                <router-link to="/about" style="text-decoration: none; color: white">
+                <router-link
+                  to="/about"
+                  style="text-decoration: none; color: white"
+                >
                   <div class="col-sm-12 recent_playlist d-flex">
                     <div class="m-2 charts_details">
                       <img src="../assets/play1.png" />
@@ -71,16 +80,18 @@
             </div>
           </div>
           <div class="col-sm-12 moses mt-4">
-            <h4 style="color: #efeee0">New Release</h4>
+            <h4 style="color: #efeee0; font-weight: bold">New Release</h4>
             <div class="row">
               <div class="music_det">
-               
                 <div class="col-sm-2 col-6">
-                  <router-link to="/about" style="text-decoration: none; color: white">
-                  <img src="../assets/musicplay.png" style="width: 100%" />
-                  <h2 style="font-size: 10px; margin-top: 5px">
-                    Life in a bubble
-                  </h2>
+                  <router-link
+                    to="/about"
+                    style="text-decoration: none; color: white"
+                  >
+                    <img src="../assets/image2.png" style="width: 100%" />
+                    <h2 style="font-size: 10px; margin-top: 5px">
+                      Life in a bubble
+                    </h2>
                   </router-link>
                 </div>
                 <div class="col-sm-2 col-6">
@@ -90,32 +101,97 @@
                   </h2>
                 </div>
                 <div class="col-sm-2 col-6">
-                  <img src="../assets/musicplay.png" style="width: 100%" />
+                  <img src="../assets/play2.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
                   </h2>
                 </div>
                 <div class="col-sm-2 col-6">
-                  <img src="../assets/musicplay.png" style="width: 100%" />
+                  <img src="../assets/play3.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
                   </h2>
                 </div>
                 <div class="col-sm-2 col-6">
-                  <img src="../assets/musicplay.png" style="width: 100%" />
+                  <img src="../assets/play5.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
                   </h2>
                 </div>
                 <div class="col-sm-2 col-6">
-                  <img src="../assets/musicplay.png" style="width: 100%" />
+                  <img src="../assets/play6.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
                   </h2>
                 </div>
 
                 <div class="col-sm-2 col-6">
+                  <img src="../assets/musicplay2.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                    <!-- {{netStore.name}} -->
+                  </h2>
+                </div>
+                 <div class="col-sm-2 col-6">
+                  <img src="../assets/musicplay2.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                    <!-- {{netStore.name}} -->
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 moses mt-4">
+            <h4 style="color: #efeee0; font-weight: bold">
+              Popular In Your Area
+            </h4>
+            <div class="row">
+              <div class="music_det">
+                <div class="col-sm-2 col-6">
+                  <router-link
+                    to="/about"
+                    style="text-decoration: none; color: white"
+                  >
+                    <img src="../assets/play6.png" style="width: 100%" />
+                    <h2 style="font-size: 10px; margin-top: 5px">
+                      Life in a bubble
+                    </h2>
+                  </router-link>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <img src="../assets/image2.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                  </h2>
+                </div>
+                <div class="col-sm-2 col-6">
                   <img src="../assets/musicplay.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                  </h2>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <img src="../assets/musicplay.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                  </h2>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <img src="../assets/musicplay2.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                  </h2>
+                </div>
+                <div class="col-sm-2 col-6">
+                  <img src="../assets/play6.png" style="width: 100%" />
+                  <h2 style="font-size: 10px; margin-top: 5px">
+                    Life in a bubble
+                  </h2>
+                </div>
+
+                <div class="col-sm-2 col-6">
+                  <img src="../assets/play5.png" style="width: 100%" />
                   <h2 style="font-size: 10px; margin-top: 5px">
                     Life in a bubble
                     <!-- {{netStore.name}} -->
@@ -132,7 +208,9 @@
             <div class="col-sm-10 music_det mx-auto">
               <div class="mydet">
                 <img src="../assets/newlog.png" />
-                <h5> Seasons In <br /><span style="font-size: 10px">James</span> </h5>
+                <h5>
+                  Seasons In <br /><span style="font-size: 10px">James</span>
+                </h5>
               </div>
               <div class="musiclogo mb-3">
                 <div class="music_logo">

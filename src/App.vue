@@ -12,11 +12,15 @@ body {
   color: white;
   scrollbar-width: none;
   box-sizing: border-box;
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-
+  -ms-overflow-style: none !important; /* for Internet Explorer, Edge */
+ 
+ 
 
 
 }
+html {
+scrollbar-width: none;
+} 
 
 body::-webkit-scrollbar {
   display: none;

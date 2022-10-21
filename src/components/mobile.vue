@@ -18,7 +18,7 @@
                 style="float: right; color: red"
               ></i></li
           ></router-link>
-          <router-link to="/about" @click="toggle()">
+          <router-link to="/collection:id" @click="toggle()">
             <li>
               <i class="fa fa-record-vinyl fa-2x mr-4"></i> My Collection
             </li>
